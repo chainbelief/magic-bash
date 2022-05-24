@@ -90,7 +90,7 @@ function updatebash() {
 	cd ~/.mytemp
 	cp ~/.magicbash.sh ~/.mytemp/.magicbash.sh
 	git init
-	git remote add origin git@github.com:earth04190419/magic-bash.git
+	git remote add origin git@github.com:chainbelief/magic-bash.git
 	git add .
 	git commit -m "update"
 	git checkout -b main
@@ -108,7 +108,7 @@ function installsnippet() {
 	mkdir ~/.config/Code/User/snippets
 	cd ~/.config/Code/User/snippets
 	git init
-	git remote add origin git@github.com:earth04190419/vscode-snippets.git
+	git remote add origin git@github.com:chainbelief/vscode-snippets.git
 	git checkout -b main
 	git pull origin main
 	cd -	
@@ -116,7 +116,7 @@ function installsnippet() {
 function savesnippet() {
 	cd ~/.config/Code/User/snippets/
 	git init
-	git remote add origin git@github.com:earth04190419/vscode-snippets.git
+	git remote add origin git@github.com:chainbelief/vscode-snippets.git
 	git checkout -b main
 
 	git add .
